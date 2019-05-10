@@ -7,21 +7,7 @@
     <div class="error-content">
       <div class="font30">您访问的页面不存在</div>
     </div>
-    <div class="error-href">
-      <a href="http://www.cnmstl.net/" target="_blank">信安在线</a> -
-      <a href="https://www.cnmstl.net/about/index.html" target="_blank">与我们联系</a> -
-      <a href="https://www.cnmstl.net/about/index.html" target="_blank">帮助</a><br />
-      </div>
-    <div class="error-icp">
-      &copy;  CNMSTL.NET 沪ICP备15048420号
     </div>
-    </div>
-    <!--<span>404</span>
-    <p>您访问的页面不存在</p>
-    <div><a href="http://www.cnmstl.net/" target="_blank">信安在线</a> -
-      <a href="https://www.cnmstl.net/about/index.html" target="_blank">与我们联系</a> -
-      <a href="https://www.cnmstl.net/about/index.html" target="_blank">帮助</a><br />
-      &copy; <span class="year"></span> CNMSTL.NET 沪ICP备15048420号</div>-->
   </div>
 </template>
 <style lang="scss" type="text/scss">
