@@ -7,8 +7,8 @@
     "start": "npm run dev",
     "lint": "eslint --ext .js,.vue src",
     "dev-kuan": "webpack-dev-server --inline --progress --config build/webpack.dev.kuan.conf.js",
-    "prod-kuan": "node build/build.kuan.js https://mwork.cnmstl.net/  https://webcert.cnmstl.net/",
-    "test-kuan": "node build/build.kuan.js http://test.mwork.cnmstl.net/  http://test.webcert.cnmstl.net/"
+    "prod-kuan": "node build/build.kuan.js",
+    "test-kuan": "node build/build.kuan.js"
   },
   "dependencies": {
     "axios": "^0.18.0",
