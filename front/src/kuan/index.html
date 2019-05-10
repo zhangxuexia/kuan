@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+    <meta name="renderer" content="webkit">
+    <title>安全产品测评服务系统</title>
+  </head>
+  <!--[if lte IE 8]><script>window.location.href='/version/index.html'</script><![endif]-->
+  <script>
+    let ms_ie = false;
+    let ua = window.navigator.userAgent.toLowerCase();
+    let old_ie = ua.indexOf('MSIE');
+    let new_ie = ua.indexOf('trident/');
+    let is360 = false;
+    let append = document.getElementById("append");
+    if((old_ie > -1) || (new_ie > -1)) {
+      ms_ie = true;
+    }
+    if(window.navigator.appName.indexOf("Microsoft") != -1) {
+      me_ie = true;
+    }
+    if((window.navigator.mimeTypes[40] || !window.navigator.mimeTypes.length)) {
+      is360 = true;
+    }
+    if(ms_ie) {
+      let DEFAULT_VERSION = 8.0;
+      let ua = navigator.userAgent.toLowerCase();
+      let isIE = ua.indexOf("msie")>-1;
+      let safariVersion;
+      if(isIE){
+        safariVersion =  ua.match(/msie ([\d.]+)/)[1];
+      }
+      if(safariVersion <= DEFAULT_VERSION ){
+        window.location.href='/version/index.html'
+      }
+    }
+  </script>
+  <body class="">
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+</html>
