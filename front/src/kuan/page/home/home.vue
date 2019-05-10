@@ -10,7 +10,6 @@
     </div>
   </div>
 </template>
-
 <script>
 import header1 from 'src/components/header/header'
 import nav1 from 'src/components/nav/nav'
